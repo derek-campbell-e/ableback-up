@@ -1,0 +1,30 @@
+{
+  "name": "ableback-up",
+  "version": "1.0.0",
+  "description": "uh... revision control with ableton is tough",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=*,-node*,mocha* nodemon --exec \"mocha tests/**/*.js\"",
+    "start": "DEBUG=*,-node*,-snapdragon* nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derek-campbell-e/ableback-up.git"
+  },
+  "author": "ugenu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derek-campbell-e/ableback-up/issues"
+  },
+  "homepage": "https://github.com/derek-campbell-e/ableback-up#readme",
+  "devDependencies": {
+    "debug": "^3.1.0"
+  },
+  "dependencies": {
+    "ableton": "0.0.8",
+    "cheerio": "^1.0.0-rc.2",
+    "chokidar": "^2.0.2",
+    "glob": "^7.1.2",
+    "xmljs": "^0.3.2"
+  }
+}
